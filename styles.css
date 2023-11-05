@@ -1,0 +1,244 @@
+/* desktop */
+@media (min-width: 1700px) {
+	.pclass {
+		width: 33.333%;
+		float: left;
+	}
+}
+
+/* tablet */
+@media (min-width: 1140px) and (max-width: 1699px) {
+	.pclass {
+		width: 50%;
+		float: left;
+	}
+}
+
+/* mobile */
+@media (max-width: 767px) {
+	.pclass {
+		width: 100%;
+		float: left;
+	}
+}
+
+section {
+	box-sizing: border-box;
+}
+
+h2 {
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	width: 250px;
+	margin: 0;
+	border: 1px solid black;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.25em;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+h3 {
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	width: 100px;
+	margin: 0;
+	border: 2REM solid;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.25em;
+	background-color: rgb(137, 213, 217);
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+section > div {
+	position: relative;
+	margin: 20px;
+	background-color: rgb(228, 233, 224);
+	border: 1px solid black;
+}
+
+section > div > p {
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+.pclass > div > h2 {
+	background-color: rgb(226, 219, 23);
+}
+
+.pclass > div > img {
+	width: 250px;
+	height: 250px;
+}
+
+h1 {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 2.75em;
+}
+
+h4 {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.75em;
+	margin: 30px 0;
+}
+
+body {
+  	/* background-image: url('/images/campus.jpg'); */
+  	min-width: 600px;
+
+  	font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+#body-opacity {
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	opacity: 0.5;
+	z-index: -1;
+}
+
+.navbar {
+	background-color: rgb(153, 171, 182)30;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	position: relative;
+	margin-bottom: 15px;
+}
+
+form {
+	text-align: center;
+	padding-top: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.75em;
+}
+
+input,
+form button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+#page-title {
+	display: inline;
+}
+
+#title-container {
+	display: flex;
+  	justify-content: center;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: #7f05f9;
+}
+.navbar a:hover {
+	color: #4c0096;
+}
+
+#input_search {
+	position: absolute;
+	right: 8px;
+	bottom: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.25em;
+}
+
+#select_sort {
+	position: absolute;
+	left: 8px;
+	bottom: 8px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.25em;
+}
+
+#my-cart {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 1.5em;
+	margin-top: 30px;
+	border-radius: 50%;
+}
+
+#my-cart table {
+	margin: auto;
+	border: 1px solid black;
+	border-radius: 50%;
+}
+
+#my-cart table td,
+#my-cart table th
+{
+	width: 300px;
+	text-align: center;
+	padding: 20px;
+}
+
+#my-cart tr:nth-of-type(odd) {
+	background-color: #98cf21;
+}
+
+#my-cart tr:nth-of-type(even) {
+	background-color: #e97e21;
+}
+
+#my-cart tr:nth-of-type(1) {
+	background-color: #5856ee;
+	color: rgb(239, 110, 110);
+}
+
+.button_add {
+	background-color: #0aa9e8;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+
+	position: absolute;
+	bottom: 0;
+}
+
+.button_delete {
+	background-color: #b80707;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+
+	position: absolute;
+	bottom: 0;
+	right: 250px;
+}
+
+.image-and-text {
+}
+
+.image-and-text img {
+	width: 250px;
+	height: 250px;
+	float: right;
+}
+
+.image-and-text p {
+	margin-top: 0;
+	padding-top: 50px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+
+	max-height: 160px;
+	overflow: auto;
+}
+
+.pclass div {
+	height: 250px;
+}
